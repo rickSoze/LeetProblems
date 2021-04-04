@@ -20,7 +20,6 @@ public class Q226_反转树 {
             root.left = rightNode;
             root.right = leftNode;
             return root;
-
         }
     }
 }

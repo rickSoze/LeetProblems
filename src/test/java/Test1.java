@@ -6,7 +6,20 @@ import java.util.ArrayList;
 
 public class Test1 {
     @Test
-    public void test0(){
+    public void myTest(){
+        int x=111111111;
+        int a=12,b=34,c=12,d=23;
+
+        System.out.println(x^=a);
+        System.out.println(x^=b);
+        System.out.println(x^=a);
+
+
+    }
+    
+    
+//    @Test
+//    public void test0(){
 
 
 //        int[][] a = {
@@ -107,7 +120,7 @@ public class Test1 {
 //        System.out.printf("2");
 //        System.out.println(removeDuplicates(new int[]{1, 1,1,2,2}));
 
-    }
+//    }
         public int removeDuplicates(int[] nums) {
             int a=0,b=1;
             int len = nums.length;
